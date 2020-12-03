@@ -5,14 +5,13 @@
     <title>HappyBirthday</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-        h1,h2 {margin:0; padding:0;}
+        h1,h2,h3,h4 {margin:0; padding:0;}
         body {
             background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) ,rgba(0, 0, 0, 0.3)),url("./images/KakaoTalk_20201203_033125818.jpg");
             background-size: cover;
 
         }
         #border {
-            height: 609px;
             border: 5px solid #FFFFFF;
             box-sizing: border-box;
             text-align: center;
@@ -45,7 +44,7 @@
             margin:31px;
             display:inline-block;
         }
-        #border div {
+        #with {
             width: 140px;
             height: 32px;
             background: #F1A09F;
@@ -68,6 +67,7 @@
             line-height: 30px;
             text-align: center;
             letter-spacing: 0.5em;
+            margin-top:10px;
 
             color: #FFFFFF;
 
@@ -81,10 +81,27 @@
             line-height: 60px;
             text-align: center;
             letter-spacing: 0.5em;
+            margin:20px;
 
             color: #FFFFFF;
 
             text-shadow: 3px 6px 7px rgba(0, 0, 0, 0.25);
+        }
+        #cake {
+            width: 158px;
+            height: 141px;
+            margin-bottom:20px;
+        }
+        #border p {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            letter-spacing: 0.05em;
+
+            color: #FFFFFF;
         }
     </style>
 </head>
@@ -93,10 +110,11 @@
     <img src="./images/crown.svg" id="crown" alt="이미지 없음">
     <h1>DAYOUNG'S</h1><br>
     <h2>BIRTHDAY PARTY</h2>
-    <div>WITH BYULHA</div>
+    <div id="with">WITH BYULHA</div>
     <h3>DECEMBER 4</h3>
     <h4>12:00</h4>
-
+    <img src="./images/birthday-cake.svg" id="cake" alt="이미지 없음">
+    <p>케이크를 누르고 파티에 참가하세요!</p>
 </div>
 
 </body>
